@@ -5,7 +5,7 @@
     --color-primary-variant: rgb(57, 5, 16); 
     --color-bg-2: rgb(71, 6, 20); 
     --color-bg-3: rgb(73, 9, 23); 
-    --color-bg-4: rgb(35, 5, 11); 
+    --color-bg-4: rgb(13, 12, 12); 
     --color-light: rgb(202, 170, 176); 
     --color-white: #e6e6e6;
     --container-width-lg: 88%;
@@ -123,3 +123,18 @@ nav {
     box-shadow: 0 1rem rgba(0, 0, 0, 0.5);
 
 }
+
+.header {
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
+    overflow: hidden;
+}
+.header-container {
+    display: grid;
+    grid-template-columns: 53% 43%;
+    gap: 4%;
+}
+
