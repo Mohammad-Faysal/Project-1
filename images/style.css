@@ -202,6 +202,7 @@ nav {
     position: absolute;
     top: 75vh;
     left: 25rem;
+    margin-left: 8rem;
 }
 .header-frame {
     width: 20rem;
@@ -223,4 +224,53 @@ nav {
 .header-frames:hover .header-frame:nth-child(2) {
     top: 0;
     left: 21rem;
+}
+
+#about {
+    margin-top: 25rem;
+}
+
+.about-container {
+   display: grid;
+   grid-template-columns: 43% 53%;
+   gap: 4%;
+}
+.about-left {
+    position: relative;
+}
+
+.about-image-bg {
+    width: 16rem;
+    height: 24rem;
+    background-color: var(--color-bg-2);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+    
+    
+
+.about-image-lg {
+    width: 30rem;
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+    transition: var(--transition);
+    filter: saturate(0) brightness(0.5);
+    transition: var(--transition);
+}
+.about-image-md {
+    width: 22rem;
+    height: 22rem;
+    position: absolute;
+    left: 15rem;
+    top: 6rem;
+    overflow: hidden;
+    box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+    
+}
+
+.about-left:hover {
+    opacity: 0;
 }
