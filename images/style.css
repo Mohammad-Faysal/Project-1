@@ -322,3 +322,21 @@ nav {
 .gallery-image:hover {
     filter: saturate(1) brightness(1);
 }
+
+#collage {
+    margin-top: 15rem;
+}
+
+.collage-head {
+    text-align: right;
+}
+
+.collage-head h2 {
+    margin-bottom: 2rem;
+}
+
+.collage-head p {
+    padding-left: 50%;
+    margin-bottom: 5rem;
+}
+
